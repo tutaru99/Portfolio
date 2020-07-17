@@ -3,9 +3,10 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import project from '../components/project.vue'
 import cases from '../components/cases.vue'
+import VueExpandableImage from 'vue-expandable-image'
 
 
-
+Vue.use(VueExpandableImage)
 Vue.use(VueRouter)
 
 const routes = [

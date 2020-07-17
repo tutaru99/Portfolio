@@ -7,22 +7,22 @@
 
 <div id="container" class="offset-md-1">
   <div class="d-flex justify-center">
-<v-img class="mr-1" max-width="500" :src="project.imageLink"></v-img>
-<v-img class="ml-1" max-width="500" :src="project.imageLink2"></v-img>
+    <expandable-image close-on-background-click class="mr-2" :src="project.imageLink" />
+    <expandable-image close-on-background-click class="ml-2" :src="project.imageLink2" />
 </div>
 <h1>{{project.title}}</h1><br>
 <p>{{project.description}}</p><br>
 
 </div>
 <div class="d-flex offset-md-1">
-<a class="mr-2" v-bind:href="project.behanceLink" target="_blank">Behance</a><br>
-
-<a v-bind:href="project.githubLink" target="_blank">Github</a><br>
+<a class="mr-9" v-bind:href="project.behanceLink" target="_blank">Behance</a><br>
+<a v-show="project.githubLink" v-bind:href="project.githubLink" target="_blank">Github</a><br>
 </div>
 </v-col>
 </template>
 
 <script>
+import VueExpandableImage from 'vue-expandable-image'
 import cases from '../components/cases';
 
 export default {
@@ -39,7 +39,7 @@ color: white;
 }
 p{
   font-size: 17px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 h1{
   font-weight: 400;

@@ -7,7 +7,6 @@
       <acomplishments/>
       <cases/>
       <contact/>
-
 <p id="credits" class="scroll-to text-center mt-15">© {{new Date().getFullYear()}} <span id="highlight">Simas Raudonis</span>. All rights reserved.</p>
 </div>
   </v-app>
@@ -40,7 +39,7 @@ export default {
   },
 
   data: () => ({
-    //
+    // 
   }),
 };
 </script>
