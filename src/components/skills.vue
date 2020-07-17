@@ -9,9 +9,9 @@
 <h1 class="pb-5">Skills & Experience</h1>
 <p>
 The main area of my expertise is Front-End development (client side of the web). 
-HTML, CSS, JavaScript, building small and medium web-apps with Vue.js, plugins and various 
-interactive animations. Also I'm more than capable working with open source CMS's such as WordPress 
-and SilverStripe. Another field I've been trying to improving my knowledge is SEO - <a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
+HTML, CSS, JavaScript, building small and medium web-apps with VueJS, plugins and various 
+interactive animations. I'm highly focused on mobile friendliness and responsiveness. Also I'm more than capable working with open source CMS's such as WordPress 
+and SilverStripe. SEO is another field I've been building my knowledge in - <a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
 Certificate</a>.
 </p>
 <v-btn id="buttonMain" class="pa-2 px-10 mt-7" href="https://github.com/tutaru99" target="_blank" outlined ripple color="indigo darken-3">Github</v-btn>
@@ -27,16 +27,17 @@ Certificate</a>.
   <ul>
    <a href="javascript:function() { return false; }">Adobe</a>
    <a href="javascript:function() { return false; }">HTML5</a>
-   <a href="javascript:function() { return false; }">CSS</a>
+   <a href="javascript:function() { return false; }">CSS3</a>
    <a href="javascript:function() { return false; }">SASS</a>
    <a href="javascript:function() { return false; }">JavaScript</a>
-   <a href="javascript:function() { return false; }">Vue.js</a>
+   <a href="javascript:function() { return false; }">VueJS</a>
    <a href="javascript:function() { return false; }">Vuetify</a>
    <a href="javascript:function() { return false; }">CMS</a>
    <a href="javascript:function() { return false; }">Github</a>
    <a href="javascript:function() { return false; }">Bootstrap</a>
    <a href="javascript:function() { return false; }">WordPress</a>
    <a href="javascript:function() { return false; }">SilverStripe</a>
+   <a href="javascript:function() { return false; }">NodeJS</a>
   </ul>
  </canvas>
 </div>
@@ -2309,7 +2310,8 @@ AddHandler('load',function(){TagCanvas.loaded=1},window);
 <style scoped>
 h1{
     color: #fff;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 p{
     color: #fff;

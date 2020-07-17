@@ -57,6 +57,8 @@ export default {
 <style scoped>
 h1{
     color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 h2, h1, span{
     cursor: context-menu;

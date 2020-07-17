@@ -7,6 +7,8 @@
       <acomplishments/>
       <cases/>
       <contact/>
+
+<p id="credits" class="scroll-to text-center mt-15">© {{new Date().getFullYear()}} <span id="highlight">Simas Raudonis</span>. All rights reserved.</p>
 </div>
   </v-app>
 </template>
@@ -17,8 +19,10 @@ import about from './components/about';
 import skills from './components/skills';
 import acomplishments from './components/acomplishments';
 import cases from './components/cases';
+import project from './components/project';
 import contact from './components/contact';
 import email from './components/email';
+
 
 export default {
   name: 'App',
@@ -31,6 +35,8 @@ export default {
     cases,
     contact,
     email,
+    project,
+
   },
 
   data: () => ({
@@ -48,5 +54,13 @@ export default {
 #mainContainer{
 background-color: #000004;
 }
+#credits{
+color: #fff;
+font-size: 13px;
+}
+#highlight{
 
+    border-bottom: #fff solid 1px;
+    padding-bottom: 3px;
+}
 </style>
