@@ -20,7 +20,7 @@
         <div class="form-group col">
             <textarea placeholder="Your Message.." class="form-control" name="message" rows="5 " required></textarea>
         </div>
-        <v-btn id="buttonMain" type="submit" class="pa-2 px-16 mt-10" target="_blank" outlined ripple color="indigo darken-3">Send Message</v-btn>
+        <v-btn id="buttonMain" type="submit" class="pa-2 px-16 mt-10" target="_blank" outlined ripple color="indigo accent-2">Send Message</v-btn>
     </form>
 </v-col>
 </div>

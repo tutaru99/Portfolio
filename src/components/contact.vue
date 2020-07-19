@@ -18,8 +18,8 @@
 Let’s talk about your projects or how I can help you <br> or if you just want to chat about
  design and <br> technology - shoot me a message at <br> <b><a href="mailto:simas.raudonis@gmail.com" target="_blank">simas.raudonis@gmail.com</a></b>, <b> <a href="https://www.linkedin.com/in/simas-raudonis" target="_blank">LinkedIn</a></b> or <br><b> <a href="https://www.instagram.com/ep1phany_0" target="_blank">Instagram</a></b>.
 </h3>
-<v-btn id="buttonMain" class="pa-2 px-16 mt-15" outlined ripple color="indigo darken-3" v-show="!showEmailComponent" @click="toggleEmailComponent" v-on:click="scrollToElement({behavior: 'smooth'})">Contact Me</v-btn>
-<v-btn id="buttonMain" class="pa-2 px-16 mt-15" outlined ripple color="indigo darken-3" v-show="showEmailComponent" @click="toggleEmailComponent">Close Form</v-btn>
+<v-btn id="buttonMain" class="pa-2 px-16 mt-15" outlined ripple color="indigo accent-2" v-show="!showEmailComponent" @click="toggleEmailComponent" v-on:click="scrollToElement({behavior: 'smooth'})">Contact Me</v-btn>
+<v-btn id="buttonMain" class="pa-2 px-16 mt-15" outlined ripple color="indigo accent-2" v-show="showEmailComponent" @click="toggleEmailComponent">Close Form</v-btn>
         <email class=""
                 v-if="showEmailComponent"
         />
@@ -67,15 +67,18 @@ h1{
     font-size: 50px;
     color: #fff;
     letter-spacing: 5px;
+    cursor:default;
 }
 a{
     text-decoration: none;
     color: #fff !important;
-}
-a:hover{
-    opacity: 0.8;
     border-bottom: #fff solid 1px;
     padding-bottom: 2px;
+}
+a:hover{
+    opacity: 0.7;
+
+
 }
 p{
     cursor: default;

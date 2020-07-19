@@ -7,7 +7,7 @@
       <acomplishments/>
       <cases/>
       <contact/>
-<p id="credits" class="scroll-to text-center mt-15">© {{new Date().getFullYear()}} <span id="highlight">Simas Raudonis</span>. All rights reserved.</p>
+<p id="credits" class="scroll-to text-center mt-15">© {{new Date().getFullYear()}} <span id="highlight"><span id="mrRed">Simas Raudonis</span></span>. All rights reserved.</p>
 </div>
   </v-app>
 </template>
@@ -56,10 +56,17 @@ background-color: #000004;
 #credits{
 color: #fff;
 font-size: 13px;
+cursor: default;
 }
 #highlight{
 
     border-bottom: #fff solid 1px;
     padding-bottom: 3px;
+}
+#mrRed:hover{
+  color:rgb(255, 60, 60);
+}
+#buttonMain:hover{
+  opacity: 0.7;
 }
 </style>

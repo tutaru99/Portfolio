@@ -46,9 +46,12 @@ h1{
   cursor: default;
 }
 a{
+  padding: 10px 35px;
   text-decoration: none;
-  color: #fff !important;
+  color: #536DFE !important;
   letter-spacing: 1px;
+  border: #536DFE solid 1px;
+  border-radius: 4px;
 }
 a:hover{
   opacity: 0.7;

@@ -6,7 +6,7 @@
         md="11"
         sm="12"
       >
-<h1 class="pb-15">Road so far</h1>
+<h1 class="pb-15">Education & Experience</h1>
 <div class="pb-5">
 <div class="d-flex">
 <a href="https://www.easv.dk/en" target="_blank"><h2 id="links">EASV</h2></a> <h2 class="ml-auto">Bachelor: Web Development</h2>
@@ -80,7 +80,7 @@ a{
 text-decoration: none;
 }
 a:hover{
-    opacity: 0.9;
+    opacity: 0.7;
 }
 #links{
     cursor: pointer;
