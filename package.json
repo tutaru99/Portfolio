@@ -12,6 +12,7 @@
     "vue": "^2.6.11",
     "vue-expandable-image": "^0.1.0",
     "vue-router": "^3.2.0",
+    "vue-scrollto": "^2.18.1",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {

@@ -10,17 +10,17 @@
       >
     <div id="textbox">
     <h2>Hi there,</h2>
-    <h1>My name is Simas</h1>
-    <h2>I am a Front-End Developer & Graphic Designer. Currently based in Esbjerg, Denmark.</h2>
+    <h1>My name is Simas.</h1>
+    <h2>I am a Web Developer & Graphic Designer. Currently based in Esbjerg, Denmark.</h2>
     </div>
     </v-col>
-  <v-btn id="buttonMain" class="pa-2 px-10 mt-7 ml-3" to="Send it to email form" target="_blank" outlined ripple color="indigo accent-2">Let's chat</v-btn>
+  <v-btn id="buttonMain" class="pa-2 px-10 mt-7 ml-3" target="_blank" outlined ripple color="indigo accent-2" v-scroll-to="{ el:'#getInTouch', duration: 1800}" >Let's chat</v-btn>
     <v-col
     cols="11"
     md="8"
     sm="11"
     >
-    <p id="skillz">Web Design  /  Interface Design  /  UX  /  Front-End Dev  /  SEO</p>
+    <p id="skillz">Web Design  |  Interface Design  |  UX  |  Front-End Dev  |  SEO</p>
     </v-col>
       </div>
       </v-img>
@@ -32,32 +32,37 @@
   <a href="https://www.behance.net/simasraudonis" target="_blank"><img class="mb-2 pa-1" src="../assets/nav/behance.svg" height="40" alt=""></a>
   <a href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view" target="_blank"><img class="mt-15 pa-1" src="../assets/nav/cv.svg" height="40" alt=""></a>
         </v-navigation-drawer>
-
   </v-container>
 </template>
+
 
 <script>
  export default {
     data () {
-      return {
+
+
+
       }
-    },
+
   }
+
 </script>
 
 <style>
   #welcomeMsg h1, h2{
     color: #FFFFFF;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     line-height: 32px;
   }
    #welcomeMsg h1{
      font-size: 25px;
      font-weight: 400;
+     cursor: default;
    }
    #welcomeMsg h2{
      font-size: 18px;
       font-weight: 300;
+      cursor: default;
    }
   .mainButton{
     border: solid 1px #ffffff;
@@ -74,6 +79,7 @@
     margin-top: 140px;
     font-size: 15px;
     letter-spacing: 2px;
+    cursor: default;
   }
   #textbox{
     margin-top: 220px;
@@ -90,5 +96,6 @@
 #socials a:hover{
   opacity: 0.7;
 }
+
 </style>
 

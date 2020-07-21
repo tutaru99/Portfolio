@@ -39,7 +39,7 @@ export default {
   },
 
   data: () => ({
-    // 
+    //
   }),
 };
 </script>
@@ -66,7 +66,11 @@ cursor: default;
 #mrRed:hover{
   color:rgb(255, 60, 60);
 }
+#buttonMain {
+opacity: 0.7;
+font-weight:600;
+}
 #buttonMain:hover{
-  opacity: 0.7;
+  opacity: 1;
 }
 </style>

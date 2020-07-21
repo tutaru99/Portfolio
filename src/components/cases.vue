@@ -15,7 +15,9 @@
     dark
     hover
     rounded
+    :ripple="{ class: 'indigo--text' }"
     outlined
+    v-scroll-to="'#feelsGoodMan'"
       v-for="project in projects"
           :key="project.id"
           @click="detailProject = project"
@@ -26,7 +28,7 @@
       src="../assets/nav/folder2.svg"
     >
     </v-img>
-    <v-card-text class="mt-3">
+    <v-card-text id="projectTitle" class="mt-3">
       <h2>{{ project.title }}</h2>
     </v-card-text>
   </v-card>
@@ -36,7 +38,7 @@
     </div>
 <v-col cols="10"
         md="11">
-  <v-btn id="buttonMain" class="pa-2 px-15 mt-7 offset-md-10" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
+  <v-btn id="buttonMain" class="pa-2 px-15 mt-7 offset-md-10" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
 </v-col>
 </v-container>
 </template>
@@ -97,9 +99,10 @@ font-size: 17px;
 }
 #cardderino {
     border-color: #fff !important;
+    opacity: 0.6;
 }
 #cardderino:hover {
-opacity: 0.7;
+opacity: 1;
 }
 .headline{
     color: #fff;
@@ -113,4 +116,5 @@ opacity: 0.7;
     letter-spacing: 2px;
     font-weight: 300;
 }
+
 </style>

@@ -5,9 +5,12 @@ import project from '../components/project.vue'
 import cases from '../components/cases.vue'
 import VueExpandableImage from 'vue-expandable-image'
 
-
 Vue.use(VueExpandableImage)
+
+
 Vue.use(VueRouter)
+var VueScrollTo = require('vue-scrollto');
+Vue.use(VueScrollTo)
 
 const routes = [
   {

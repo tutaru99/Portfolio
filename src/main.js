@@ -5,8 +5,26 @@ import vuetify from './plugins/vuetify';
 import VueExpandableImage from 'vue-expandable-image'
 Vue.config.productionTip = false
 
+var VueScrollTo = require('vue-scrollto');
+
 new Vue({
   router,
   vuetify,
   render: h => h(App)
 }).$mount('#app')
+
+
+// You can also pass in the default options
+Vue.use(VueScrollTo, {
+     container: "body",
+     duration: 500,
+     easing: "ease",
+     offset: 0,
+     force: true,
+     cancelable: true,
+     onStart: false,
+     onDone: false,
+     onCancel: false,
+     x: false,
+     y: true
+ })

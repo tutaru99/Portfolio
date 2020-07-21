@@ -15,8 +15,8 @@
 
 </div>
 <div class="d-flex offset-md-1">
-<a class="mr-9" v-bind:href="project.behanceLink" target="_blank">Behance</a><br>
-<a v-show="project.githubLink" v-bind:href="project.githubLink" target="_blank">Github</a><br>
+<a class="mr-9" v-bind:href="project.behanceLink" target="_blank">Behance</a>
+<a v-show="project.githubLink" v-bind:href="project.githubLink" target="_blank">Github</a>
 </div>
 </v-col>
 </template>
@@ -46,14 +46,15 @@ h1{
   cursor: default;
 }
 a{
-  padding: 10px 35px;
   text-decoration: none;
   color: #536DFE !important;
   letter-spacing: 1px;
-  border: #536DFE solid 1px;
-  border-radius: 4px;
+  
+  line-height: 2;
+
 }
 a:hover{
   opacity: 0.7;
+  border-bottom: #536DFE solid 1px;
 }
 </style>
