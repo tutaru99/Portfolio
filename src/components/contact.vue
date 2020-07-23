@@ -7,10 +7,10 @@
       >
   <v-divider class="mt-15 offset-md-1" color="#ffffff"></v-divider>
 </v-col>
-<div class="d-flex text-center flex-column d-sm-flex flex-sm-row offset-md-1 mt-16">
+<div class="d-flex text-center flex-column d-sm-flex flex-sm-row mt-16">
  <v-col
         cols="12"
-        md="11"
+        md="12"
         sm="12"
       >
       <h1>GET IN TOUCH</h1>

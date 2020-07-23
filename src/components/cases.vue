@@ -4,11 +4,11 @@
 <project :project="detailProject" v-show="detailProject" />
 <div v-show="!detailProject">
 <h1 class="offset-1" id="title" >Latest Cases</h1>
-  <v-row class="offset-md-1">
+  <v-row class=" d-flex justify-center">
  <v-card
 
     id="cardderino"
-    class="hvr-glow mt-12 ml-4"
+    class="hvr-glow mt-12 mr-4"
     max-width="220"
     height="370"
     color="transparent"
