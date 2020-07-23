@@ -7,16 +7,16 @@
 
 <div id="container" class="offset-md-1">
   <div class="d-flex justify-center">
-    <expandable-image close-on-background-click class="mr-2" :src="project.imageLink" />
-    <expandable-image close-on-background-click class="ml-2" :src="project.imageLink2" />
+    <expandable-image close-on-background-click class="hvr-glow mr-2" :src="project.imageLink" />
+    <expandable-image close-on-background-click class="hvr-glow ml-2" :src="project.imageLink2" />
 </div>
-<h1>{{project.title}}</h1><br>
-<p>{{project.description}}</p><br>
+<h1 class="mt-15">{{project.title}}</h1>
+<p class="mt-9">{{project.description}}</p>
 
 </div>
-<div class="d-flex offset-md-1">
-<a class="mr-9" v-bind:href="project.behanceLink" target="_blank">Behance</a>
-<a v-show="project.githubLink" v-bind:href="project.githubLink" target="_blank">Github</a>
+<div class="mt-7 d-flex offset-md-1">
+<a class="hvr-glow mr-9" v-bind:href="project.behanceLink" target="_blank">Behance</a>
+<a class="hvr-glow" v-show="project.githubLink" v-bind:href="project.githubLink" target="_blank">Github</a>
 </div>
 </v-col>
 </template>
@@ -42,19 +42,21 @@ p{
   letter-spacing: 1px;
 }
 h1{
-  font-weight: 400;
+  font-weight: 500;
   cursor: default;
+  font-size: 37px;
 }
 a{
   text-decoration: none;
   color: #536DFE !important;
   letter-spacing: 1px;
-  
+  border: #536DFE solid 1px;
+  padding: 1px 10px;
   line-height: 2;
-
+  opacity: 0.7;
 }
 a:hover{
-  opacity: 0.7;
+ opacity: 1;
   border-bottom: #536DFE solid 1px;
 }
 </style>

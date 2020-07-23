@@ -1,6 +1,6 @@
 <template>
 <v-container>
-<div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-16">
+<div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-11">
  <v-col
         cols="12"
         md="5"
@@ -14,7 +14,7 @@ interactive animations. I'm highly focused on mobile friendliness and responsive
 and SilverStripe. SEO is another field I've been building my knowledge in - <a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
 Certificate</a>.
 </p>
-<v-btn id="buttonMain" class="pa-2 px-10 mt-7" href="https://github.com/tutaru99" target="_blank" outlined ripple color="indigo accent-2">Github</v-btn>
+<v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://github.com/tutaru99" target="_blank" outlined ripple color="indigo accent-2">Github</v-btn>
 </v-col>
 <v-col class="offset-md-1"
         cols="12"

@@ -8,7 +8,7 @@
  <v-card
 
     id="cardderino"
-    class="mt-12 ml-4"
+    class="hvr-glow mt-12 ml-4"
     max-width="220"
     height="370"
     color="transparent"
@@ -38,7 +38,7 @@
     </div>
 <v-col cols="10"
         md="11">
-  <v-btn id="buttonMain" class="pa-2 px-15 mt-7 offset-md-10" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
+  <v-btn id="buttonMain" class="hvr-glow pa-2 px-15 mt-7 offset-md-10" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
 </v-col>
 </v-container>
 </template>
@@ -95,15 +95,13 @@ githubLink: ''},
 h2{
 font-weight: 400;
 letter-spacing: 2px;
-font-size: 17px;
+font-size: 19px;
+font-family: 'PT Sans', sans-serif;
 }
 #cardderino {
     border-color: #fff !important;
-    opacity: 0.6;
 }
-#cardderino:hover {
-opacity: 1;
-}
+
 .headline{
     color: #fff;
     font-size: 40px !important;

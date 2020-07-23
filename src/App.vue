@@ -7,7 +7,7 @@
       <acomplishments/>
       <cases/>
       <contact/>
-<p id="credits" class="scroll-to text-center mt-15">© {{new Date().getFullYear()}} <span id="highlight"><span id="mrRed">Simas Raudonis</span></span>. All rights reserved.</p>
+<p id="credits" class="scroll-to text-center mt-15">© {{new Date().getFullYear()}} <span id="highlight">Simas <span id="mrRed">R</span>audonis</span>. All rights reserved.</p>
 </div>
   </v-app>
 </template>
@@ -48,6 +48,7 @@ export default {
 *{
   padding: 0;
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
 #mainContainer{
@@ -64,13 +65,28 @@ cursor: default;
     padding-bottom: 3px;
 }
 #mrRed:hover{
-  color:rgb(255, 60, 60);
+  color:rgb(223, 0, 0);
 }
 #buttonMain {
 opacity: 0.7;
 font-weight:600;
+font-family: 'PT Sans', sans-serif;
 }
 #buttonMain:hover{
   opacity: 1;
+}
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px #536DFE !important;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 20px #536DFE !important;
 }
 </style>

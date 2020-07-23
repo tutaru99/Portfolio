@@ -10,17 +10,17 @@
         <div class="form-group">
             <div class="form-row">
                 <div class="col">
-                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    <input type="text" name="name" class="hvr-glow form-control" placeholder="Name.." required>
                 </div>
                 <div class="col">
-                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    <input type="email" name="email" class="hvr-glow form-control" placeholder="Your Email Address.." required>
                 </div>
             </div>
         </div>
         <div class="form-group col">
-            <textarea placeholder="Your Message.." class="form-control" name="message" rows="5 " required></textarea>
+            <textarea placeholder="Message.." class="hvr-glow form-control" name="message" rows="5 " required></textarea>
         </div>
-        <v-btn id="buttonMain" type="submit" class="pa-2 px-16 mt-10" target="_blank" outlined ripple color="indigo accent-2">Send Message</v-btn>
+        <v-btn id="buttonMain" type="submit" class="hvr-glow pa-2 px-16 mt-10" target="_blank" outlined ripple color="indigo accent-2">Send Message</v-btn>
     </form>
 </v-col>
 </div>

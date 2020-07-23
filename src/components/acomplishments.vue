@@ -68,6 +68,8 @@ h2{
     line-height: 1;
     font-weight: 400;
     letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+
 }
 span{
     color: #fff;

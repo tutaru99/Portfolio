@@ -17,7 +17,7 @@
 I'm Simas Raudonis. Currently broadening my horizons and getting my Web Development degree in Denmark. <br><br>
 I love creating things that make people smile. Web Development is not only my field of study and work - it became my passion.
 </p>
-<v-btn id="buttonMain" class="pa-2 px-10 mt-7" href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view"
+<v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view"
 target="_blank" outlined ripple color="indigo accent-2">Résumé</v-btn>
 </v-col>
 <v-col class="offset-md-1"
@@ -31,7 +31,7 @@ web as much as talking with users to get feedback and improving the UX. <br> <br
 Amongst other things I really enjoy keeping up with all technology innovations and latest tech trends.
  Reading science, technology and other types of magazines and articles are one of my favorite hobbies.
 </p>
-<v-btn id="buttonMain" class="pa-2 px-10 mt-7" href="https://www.linkedin.com/in/simas-raudonis/" target="_blank" outlined ripple color="indigo accent-2">LinkedIn</v-btn>
+<v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://www.linkedin.com/in/simas-raudonis/" target="_blank" outlined ripple color="indigo accent-2">LinkedIn</v-btn>
 </v-col>
 </div>
  <v-col
