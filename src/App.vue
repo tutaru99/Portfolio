@@ -7,6 +7,7 @@
       <acomplishments/>
       <cases/>
       <contact/>
+
 <p id="credits" class="scroll-to text-center mt-15">© {{new Date().getFullYear()}} <span id="highlight">Simas <span id="mrRed">R</span>audonis</span>. All rights reserved.</p>
 </div>
   </v-app>
@@ -23,6 +24,7 @@ import contact from './components/contact';
 import email from './components/email';
 
 
+
 export default {
   name: 'App',
 
@@ -35,16 +37,14 @@ export default {
     contact,
     email,
     project,
-
   },
 
-  data: () => ({
-    //
-  }),
+
 };
 </script>
 
 <style>
+
 *{
   padding: 0;
   margin: 0;

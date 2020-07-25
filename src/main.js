@@ -4,14 +4,17 @@ import router from './router'
 import vuetify from './plugins/vuetify';
 import VueExpandableImage from 'vue-expandable-image'
 Vue.config.productionTip = false
-
 var VueScrollTo = require('vue-scrollto');
+
+import { ValidationProvider, extend } from 'vee-validate';
+import { required } from 'vee-validate/dist/rules';
 
 new Vue({
   router,
   vuetify,
   render: h => h(App)
 }).$mount('#app')
+
 
 
 // You can also pass in the default options
@@ -28,3 +31,9 @@ Vue.use(VueScrollTo, {
      x: false,
      y: true
  })
+
+ // input validation
+ extend('required', {
+  ...required,
+  message: "*Please add your message!"
+});

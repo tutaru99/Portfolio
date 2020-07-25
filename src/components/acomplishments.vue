@@ -1,6 +1,6 @@
 <template>
 <v-container>
-<div class="flex-column d-sm-flex flex-sm-row offset-md-1 mt-16">
+<div class="flex-column d-sm-flex flex-sm-row offset-md-1 mt-9">
  <v-col
         cols="12"
         md="11"

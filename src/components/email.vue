@@ -21,6 +21,7 @@
                     dark
                     required
                 ></v-text-field>
+
                 <v-text-field
                     type="email"
                     name="email"
@@ -37,7 +38,9 @@
             </div>
         </div>
         <div class="form-group">
+<validation-provider rules="required" v-slot="{ errors }">
             <v-textarea
+            v-model="value"
             dark
             background-color="#202022"
             label="Message"
@@ -49,7 +52,9 @@
             flat
             >
  </v-textarea>
-        </div>
+<span id="errorMsg" class="d-flex justify-left">{{ errors[0] }}</span>
+</validation-provider>
+</div>
         <v-btn id="buttonMain" type="submit" class="hvr-glow pa-2 px-16 mt-10" target="_blank" outlined ripple color="indigo accent-2">Send Message</v-btn>
     </form>
 </v-col>
@@ -58,9 +63,19 @@
 </template>
 
 <script>
+import { ValidationProvider, extend } from 'vee-validate';
+import { required } from 'vee-validate/dist/rules';
 export default {
+name: 'App',
+  components: {
+    ValidationProvider,
+    },
+  data: () => ({
+
+  })
 
 }
+
 </script>
 
 <style scoped>
@@ -72,9 +87,13 @@ form{
   /*   border: #202022 solid 2px; */
     padding: 10px 10px 30px 10px;
     height: auto;
-    border: #536DFE solid 1px;
+    border: #202022 solid 3px;
 }
 textarea:focus, input:focus{
     outline: none;
+}
+#errorMsg {
+    color: #d32f2f;
+    font-size: 13px;
 }
 </style>

@@ -10,7 +10,8 @@
       >
     <div id="textbox">
       <div>
-    <h2 id="typeWriter">Hi there,<div id="border"></div></h2></div>
+    <h2 id="typeWriter">Hi there,<div id="border"></div></h2>
+      </div>
     <h1>My name is Simas.</h1>
     <h2>I am a Web Developer & Graphic Designer, Currently based in Esbjerg, Denmark.</h2>
     </div>
@@ -37,13 +38,6 @@
             <a href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
       </ul>
     </div>
-<!--
-  <v-row><a href="https://www.instagram.com/ep1phany_0" target="_blank" ><img class="mb-2 ml-3 pa-1" src="../assets/nav/instagram.svg" height="40" alt=""></a></v-row>
-    <v-row><a href="https://www.linkedin.com/in/simas-raudonis" target="_blank" ><img class="mb-2 ml-3 pa-1" src="../assets/nav/linkedin.svg" height="40" alt=""></a></v-row>
-   <v-row> <a class="" href="https://github.com/tutaru99" target="_blank"><img class="mb-2 ml-3 pa-1" src="../assets/nav/github.svg" height="40" alt=""></a></v-row>
-    <v-row><a href="https://www.behance.net/simasraudonis" target="_blank"><img class="mb-2 ml-3 pa-1" src="../assets/nav/behance.svg" height="40" alt=""></a></v-row>
-   <v-row> <a href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view" target="_blank"><img class="mt-15 ml-3 pa-1" src="../assets/nav/cv.svg" height="40" alt=""></a></v-row>
-         -->
         </v-navigation-drawer>
   </v-container>
 </template>

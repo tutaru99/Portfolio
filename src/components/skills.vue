@@ -1,6 +1,6 @@
 <template>
 <v-container>
-<div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-11">
+<div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-9">
  <v-col
         cols="12"
         md="5"
@@ -48,7 +48,7 @@ Certificate</a>.
         md="11"
         sm="11"
       >
-  <v-divider class="mt-10 offset-1" color="#ffffff"></v-divider>
+  <v-divider class="mt-16 offset-1" color="#ffffff"></v-divider>
 </v-col>
 </v-container>
 </template>

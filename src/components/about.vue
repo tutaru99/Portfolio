@@ -39,7 +39,7 @@ Amongst other things I really enjoy keeping up with all technology innovations a
         md="11"
         sm="11"
       >
-  <v-divider class="mt-15 offset-1" color="#ffffff"></v-divider>
+  <v-divider class="mt-16 offset-1" color="#ffffff"></v-divider>
 </v-col>
 </v-container>
 </template>
