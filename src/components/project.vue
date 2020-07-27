@@ -1,5 +1,11 @@
 <template>
  <v-col
+    data-aos="fade-in"
+    data-aos-offset="1"
+    data-aos-delay="50"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="false"
         cols="11"
         md="11"
         sm="12"
@@ -10,7 +16,7 @@
     <expandable-image close-on-background-click class="hvr-glow mr-2" :src="project.imageLink" />
     <expandable-image close-on-background-click class="hvr-glow ml-2" :src="project.imageLink2" />
 </div>
-<h1 class="mt-15">{{project.title}}</h1>
+<h1 class="mt-15"><span>{{project.title}}</span></h1>
 <p class="mt-9">{{project.description}}</p>
 
 </div>
@@ -45,7 +51,9 @@ h1{
   font-weight: 500;
   cursor: default;
   font-size: 37px;
+
 }
+
 a{
   text-decoration: none;
   color: #536DFE !important;
@@ -58,5 +66,8 @@ a{
 a:hover{
  opacity: 1;
   border-bottom: #536DFE solid 1px;
+}
+span{
+   box-shadow: inset 0 -15px 0 #536dfe69;
 }
 </style>

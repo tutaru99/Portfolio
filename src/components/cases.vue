@@ -10,7 +10,13 @@
         sm="10">
  <v-card
     id="cardderino"
-    class="hvr-glow mt-12 mr-5"
+    data-aos="fade-in"
+    data-aos-offset="1"
+    data-aos-delay="50"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="false"
+    class="hvr-glow mt-12 activeState mr-5"
     max-width="220"
     height="370"
     color="transparent"
@@ -45,7 +51,7 @@
 <div id="projectsBtn" class="ml-7">
   <v-btn id="buttonMain" class="hvr-glow pa-2 px-15 mt-7 offset-md-5" v-scroll-to="'#title'" @click="toggleProjects" v-show="!detailProject" outlined ripple color="indigo accent-2">{{limit == 4 ? 'More' : 'Less'}} Projects</v-btn>
 </div>
-  <v-btn id="buttonMain" class="hvr-glow pa-2 px-15 mt-7 offset-md-10" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
+  <v-btn id="buttonMain" class="hvr-glow activeState pa-2 px-15 mt-7 offset-md-10" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
 </v-col>
 </v-container>
 </template>
@@ -63,19 +69,19 @@ return {
 detailProject: null,
 isNight: true,
 projects: [
-{title: "Esports Esbjerg",
+{title: "Website: Esports Esbjerg",
 imageLink: require('@/assets/esports1.jpg'),
 imageLink2: require( '@/assets/esports2.jpg'),
-description: "A project made for ESports Esbjerg School. The school requested a total rebrand, a brand new website with a lot of features and the ability to control data & various elements on the website through WordPress CMS. The website itself is coded using VueJS together with Vuetify framework. In this particular project - CMS serves as a back-end tool for editing and adding content to the website.  ",
+description: "A project made for e-Sports Esbjerg School. The school requested a total rebrand, a brand new website with a lot of features and the ability to control data & various elements on the website through WordPress CMS. The website itself is coded using VueJS together with Vuetify framework. In this particular project - CMS serves as a back-end tool for editing and adding new content on the website via implemented blog feature.  ",
 behanceLink: 'https://www.behance.net/gallery/100897607/Esports-Esbjerg-Full-Makeover',
 githubLink: 'https://github.com/tutaru99/esports'},
-{title: "Friskole",
+{title: "Website: Friskole",
 imageLink: require('@/assets/friskole1.jpg'),
 imageLink2: require( '@/assets/friskole2.jpg'),
 description: "A re-designed website for Esbjerg Friskole school located in Esbjerg. The website was created in plain HTML, CSS and Bootstrap. Later on it was converted into WordPress theme template. Most of the elements can be eddited, changed and added through WordPress's Admin Panel. The process of updating website was simplified by users request because they were not tech savvy.",
 behanceLink: 'https://www.behance.net/gallery/100894529/Friskole-Esbjerg-school-website',
 githubLink: 'https://github.com/tutaru99/friSkole'},
-{title: "Enviroom",
+{title: "Website: Enviroom",
 imageLink: require('@/assets/enviroom1.jpg'),
 imageLink2: require( '@/assets/enviroom2.jpg'),
 description: "This project was created to connect travellers with niche hotels in nature. The project was built using VueJS and later converted to WordPress as a fully usable template. The website has unusual way of showing trip cards, as well as a method of scrolling them. Most of the elements can be edited and/or added through WP's Admin Panel. ",
@@ -126,6 +132,10 @@ font-family: 'PT Sans', sans-serif;
 }
 #cardderino {
     border-color: #fff !important;
+    transition: transform 0.2s ease 0s;
+}
+#cardderino:hover {
+transform: translateY(-3px);
 }
 
 .headline{
@@ -140,5 +150,7 @@ font-family: 'PT Sans', sans-serif;
     letter-spacing: 2px;
     font-weight: 300;
 }
-
+.activeState:active{
+  transform: translateY(2px);
+}
 </style>

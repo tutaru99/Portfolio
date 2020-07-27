@@ -2,17 +2,23 @@
 <v-container>
 <div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-9">
  <v-col
+   data-aos="fade-in"
+    data-aos-offset="1"
+    data-aos-delay="50"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
         cols="12"
         md="5"
         sm="5"
       >
 <h1 class="pb-5">Skills & Competencies</h1>
 <p>
-The main area of my expertise is Front-End development (client side of the web). 
+The main area of my expertise is Front-End development (client-side of the web). 
 HTML, CSS, JavaScript, building small and medium web-apps with VueJS, plugins and various 
-interactive animations. I'm highly focused on mobile friendliness and responsiveness. Also I'm more than capable working with open source CMS's such as WordPress 
-and SilverStripe. SEO is another field I've been building my knowledge in - <a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
-Certificate</a>.
+interactive animations. I'm highly focused on mobile-friendliness and responsiveness. Also, I'm more than capable of working with open source CMS's such as WordPress 
+and SilverStripe. SEO is another field I've been building my knowledge in - <span class="filledLink"><a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
+Certificate</a></span>.
 </p>
 <v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://github.com/tutaru99" target="_blank" outlined ripple color="indigo accent-2">Github</v-btn>
 </v-col>
@@ -2303,13 +2309,16 @@ p{
 p a{
   text-decoration: none;
   color: #fff !important;
-  border-bottom: #fff solid 1px;
+  border-bottom: #536DFE solid 1px;
   padding-bottom: 3px;
+  box-shadow: inset 0 -1px 0 #536DFE;
 }
 p a:hover{
 color: #fff !important;
- opacity: 0.7;
-  }
+opacity: 0.9;
+transition: all 600ms ease-in-out;
+box-shadow: inset 0 -55px 0 0 #536DFE;
+}
 .disabled {
   pointer-events: none;
   cursor: default;

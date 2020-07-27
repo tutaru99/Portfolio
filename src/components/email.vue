@@ -1,5 +1,11 @@
 <template>
-<v-container>
+<v-container
+    data-aos="fade-in"
+    data-aos-offset="1"
+    data-aos-delay="50"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true">
 <div class="mt-5 d-flex justify-center">
  <v-col
         cols="12"
@@ -55,7 +61,7 @@
 <span id="errorMsg" class="d-flex justify-left">{{ errors[0] }}</span>
 </validation-provider>
 </div>
-        <v-btn id="buttonMain" type="submit" class="hvr-glow pa-2 px-16 mt-10" target="_blank" outlined ripple color="indigo accent-2">Send Message</v-btn>
+        <v-btn id="buttonMain" type="submit" class="hvr-glow activeState pa-2 px-16 mt-10" target="_blank" outlined ripple color="indigo accent-2">Send Message</v-btn>
     </form>
 </v-col>
 </div>
@@ -95,5 +101,8 @@ textarea:focus, input:focus{
 #errorMsg {
     color: #d32f2f;
     font-size: 13px;
+}
+.activeState:active{
+  transform: translateY(2px);
 }
 </style>

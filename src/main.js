@@ -9,6 +9,10 @@ var VueScrollTo = require('vue-scrollto');
 import { ValidationProvider, extend } from 'vee-validate';
 import { required } from 'vee-validate/dist/rules';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 new Vue({
   router,
   vuetify,

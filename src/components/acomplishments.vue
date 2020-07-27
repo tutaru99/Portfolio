@@ -1,6 +1,12 @@
 <template>
 <v-container>
-<div class="flex-column d-sm-flex flex-sm-row offset-md-1 mt-9">
+<div class="flex-column d-sm-flex flex-sm-row offset-md-1 mt-9"
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="50"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true">
  <v-col
         cols="12"
         md="11"
@@ -69,7 +75,6 @@ h2{
     font-weight: 400;
     letter-spacing: 2px;
     font-family: 'PT Sans', sans-serif;
-
 }
 span{
     color: #fff;
@@ -79,10 +84,19 @@ span{
 }
 
 a{
-text-decoration: none;
+  text-decoration: none;
+  color: #fff !important;
+  border-bottom: #536DFE solid 1px;
+  padding-bottom: 3px;
+  padding-top: 1px;
+  box-shadow: inset 0 -1px 0 #536DFE;
+  padding-left: 3px; padding-right: 3px;
+
 }
 a:hover{
-    opacity: 0.7;
+opacity: 0.9;
+transition: all 600ms ease-in-out;
+box-shadow: inset 0 -55px 0 0 #536DFE;
 }
 #links{
     cursor: pointer;

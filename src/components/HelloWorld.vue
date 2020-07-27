@@ -2,7 +2,13 @@
   <v-container id="welcomeMsg">
     <v-img id="bigSimas" src="../assets/simasBig2.png" position="right"  aspect-ratio="1.6" contain   gradient="to top right, rgba(0,0,0,.15), rgba(0,0,0,.7)" alt="">
     <v-img class="mt-2" src="../assets/logo_simas.png" position="left" aspect-ratio="1.4" height="70" contain alt=""></v-img>
-    <div class="offset-md-1">
+    <div class="offset-md-1"
+        data-aos="fade-in"
+    data-aos-offset="1"
+    data-aos-delay="50"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true">
        <v-col
         cols="10"
         md="6"
@@ -13,7 +19,7 @@
     <h2 id="typeWriter">Hi there,<div id="border"></div></h2>
       </div>
     <h1>My name is Simas.</h1>
-    <h2>I am a Web Developer & Graphic Designer, Currently based in Esbjerg, Denmark.</h2>
+    <h2>I am a <span id="highligh"> Web Developer</span> & <span id="highligh">Graphic Designer</span>, Currently based in Esbjerg, Denmark.</h2>
     </div>
     </v-col>
   <v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7 ml-3" target="_blank" outlined ripple color="indigo accent-2" v-scroll-to="{ el:'#getInTouch', duration: 1800}" >Let's chat</v-btn>
@@ -22,20 +28,64 @@
     md="8"
     sm="11"
     >
-    <p id="skillz" >Web Design  |  Interface Design  |  UX  |  Front-End Dev  |  SEO</p>
+    <p id="skillz" >Web Design  |  Interface Design  |  UX  |  Web Development  |  SEO</p>
     </v-col>
       </div>
       </v-img>
         <v-navigation-drawer class="px-1" id="socials" color="transparent" hide-overlay
-        absolute right width="130" height="10%">
+        absolute right width="130" height="10%"
+>
 
     <div class="wrapper mt-4">
       <ul>
-            <a href="https://www.instagram.com/ep1phany_0" target="_blank">  <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
-            <a href="https://www.linkedin.com/in/simas-raudonis" target="_blank" > <li class="linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li></a>
-            <a href="https://github.com/tutaru99" target="_blank"><li class="github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></li></a>
-            <a href="https://www.behance.net/simasraudonis" target="_blank"><li class="behance"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></li></a>
-            <a href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
+            <a
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="2000"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://www.instagram.com/ep1phany_0" target="_blank">  <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
+            <a
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="2200"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://www.linkedin.com/in/simas-raudonis" target="_blank" > <li class="linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li></a>
+            <a
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="2400"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://github.com/tutaru99" target="_blank"><li class="github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></li></a>
+            <a
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="2600"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://codepen.io/tutaru99" target="_blank"><li class="codepen"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></li></a>
+            <a
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="2800"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://www.behance.net/simasraudonis" target="_blank"><li class="behance"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></li></a>
+            <a
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="3000"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
       </ul>
     </div>
         </v-navigation-drawer>
@@ -106,6 +156,18 @@
   text-shadow: 0 0 15px #536DFE;
   transition: all 0.5s ease;
 }
+/*codepen*/
+.wrapper ul li:hover.codepen {
+  border: 0px solid #536DFE;
+  box-shadow: 0 0 15px #536DFE;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-codepen {
+  color: #536DFE;
+  text-shadow: 0 0 15px #536DFE;
+  transition: all 0.5s ease;
+}
 
 /* behance */
 .wrapper ul li:hover.behance {
@@ -131,7 +193,6 @@
   text-shadow: 0 0 15px #536DFE;
   transition: all 0.5s ease;
 }
-
 
   #welcomeMsg h1, h2{
     color: #FFFFFF;
@@ -191,10 +252,10 @@
 }
 /* Animation */
 #typeWriter {
-  animation: animated-text 2s steps(30,end) 1s 1 normal both
+  animation: animated-text 2s steps(12,end) 1s 1 normal both
 }
 #border {
-   animation: animated-cursor 850ms steps(30,end) infinite;
+   animation: animated-cursor 850ms steps(12,end) infinite;
 }
 @keyframes animated-text{
   from{width: 0;}
@@ -203,6 +264,9 @@
 @keyframes animated-cursor{
   from{border-bottom-color: #536DFE;}
   to{border-bottom-color: transparent;}
+}
+#highligh{
+  box-shadow: inset 0 -7px 0 #536dfe69;
 }
 </style>
 

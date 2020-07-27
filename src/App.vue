@@ -60,12 +60,12 @@ font-size: 13px;
 cursor: default;
 }
 #highlight{
-
-    border-bottom: #fff solid 1px;
+   box-shadow: inset 0 -1px 0 0 #536DFE;
     padding-bottom: 3px;
 }
-#mrRed:hover{
-  color:rgb(223, 0, 0);
+#highlight:hover{
+    box-shadow: inset 0 -18px 0 0 #536DFE;
+    transition: all 600ms ease-in-out;
 }
 #buttonMain {
 opacity: 0.7;
