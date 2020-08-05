@@ -7,7 +7,13 @@
       >
   <v-divider class="mt-9 offset-md-1" color="#ffffff"></v-divider>
 </v-col>
-<div class="d-flex text-center flex-column d-sm-flex flex-sm-row mt-16">
+<div class="d-flex text-center flex-column d-sm-flex flex-sm-row mt-16"
+    data-aos="fade-up"
+    data-aos-offset="50"
+    data-aos-delay="1"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true">
  <v-col
         cols="12"
         md="12"
@@ -71,19 +77,19 @@ h1{
     font-family: 'Lora', serif;
 }
 a{
-    text-decoration: none;
-    color: #fff !important;
-    border-bottom: #536DFE solid 1px;
-    padding-bottom: 2px;
-    box-shadow: inset 0 -1px 0 #536DFE;
+text-decoration: none;
+color: #fff !important;
+border-bottom: #536DFE solid 1px;
+padding-bottom: 2px;
+box-shadow: inset 0 -1px 0 #536DFE;
+-webkit-transition: 0.9s ease-in-out;
+transition: 0.4s ease-in-out;
 }
 a:hover{
 opacity: 0.9;
-transition: all 600ms ease-in-out;
+transition: all 400ms ease-in-out;
 box-shadow: inset 0 -55px 0 0 #536DFE;
-
 }
-
 p{
     cursor: default;
 }

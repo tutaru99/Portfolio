@@ -27,7 +27,6 @@
                     dark
                     required
                 ></v-text-field>
-
                 <v-text-field
                     type="email"
                     name="email"
@@ -104,5 +103,10 @@ textarea:focus, input:focus{
 }
 .activeState:active{
   transform: translateY(2px);
+}
+.theme--light.v-text-field--outline:not(.v-input--is-focused):not(.v-input--has-state)>.v-input__control>.v-input__slot:hover{
+border-width: 1px;
+border-style: solid;
+border-color: #6fbd44;
 }
 </style>

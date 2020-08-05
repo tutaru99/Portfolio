@@ -10,7 +10,7 @@
 <div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-16"
     data-aos="fade-up"
     data-aos-offset="50"
-    data-aos-delay="50"
+    data-aos-delay="1"
     data-aos-duration="600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
@@ -36,7 +36,7 @@ target="_blank" outlined ripple color="indigo accent-2">Résumé</v-btn>
 <p>
 My professional area of focus lies in designing web and mobile products, user research & development. I enjoy designing and coding the 
 web as much as talking with users to get feedback and improving the UX. <br> <br>
-Amongst other things I really enjoy keeping up with all technological innovations and the latest tech trends.
+Amongst other things, I enjoy keeping up with all technological innovations and the latest tech trends.
  Reading science, technology and other types of magazines and articles are some of my favorite hobbies.
 </p>
 <v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://www.linkedin.com/in/simas-raudonis/" target="_blank" outlined ripple color="indigo accent-2">LinkedIn</v-btn>

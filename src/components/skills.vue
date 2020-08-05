@@ -2,9 +2,9 @@
 <v-container>
 <div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-9">
  <v-col
-   data-aos="fade-in"
-    data-aos-offset="1"
-    data-aos-delay="50"
+    data-aos="fade-up"
+    data-aos-offset="50"
+    data-aos-delay="1"
     data-aos-duration="600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
@@ -15,7 +15,7 @@
 <h1 class="pb-5">Skills & Competencies</h1>
 <p>
 The main area of my expertise is Front-End development (client-side of the web). 
-HTML, CSS, JavaScript, building small and medium web-apps with VueJS, plugins and various 
+HTML, CSS, JavaScript, building small and medium web-apps with VueJS, plugins, and various 
 interactive animations. I'm highly focused on mobile-friendliness and responsiveness. Also, I'm more than capable of working with open source CMS's such as WordPress 
 and SilverStripe. SEO is another field I've been building my knowledge in - <span class="filledLink"><a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
 Certificate</a></span>.
@@ -40,7 +40,7 @@ Certificate</a></span>.
    <a href="javascript:function() { return false; }">Vuetify</a>
    <a href="javascript:function() { return false; }">CMS</a>
    <a href="javascript:function() { return false; }">Github</a>
-   <a href="javascript:function() { return false; }">Bootstrap</a>
+   <a href="javascript:function() { return false; }">Bootstrap4</a>
    <a href="javascript:function() { return false; }">WordPress</a>
    <a href="javascript:function() { return false; }">SilverStripe</a>
    <a href="javascript:function() { return false; }">NodeJS</a>
@@ -2295,6 +2295,10 @@ AddHandler('load',function(){TagCanvas.loaded=1},window);
 </script>
 
 <style scoped>
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 h1{
     color: #fff;
     letter-spacing: 2px;
@@ -2309,18 +2313,24 @@ p{
 p a{
   text-decoration: none;
   color: #fff !important;
-  border-bottom: #536DFE solid 1px;
   padding-bottom: 3px;
   box-shadow: inset 0 -1px 0 #536DFE;
+  border-bottom: #536DFE solid 1px;
+  color: #fff;
+  text-decoration: none;
+/* vertical animation options */
+background-image: linear-gradient(transparent calc(65% - 17px), #536DFE 1px);
+background-size: 0;
+-webkit-transition: 0.9s ease-in-out;
+transition: 0.9s ease-in-out;
+
 }
 p a:hover{
 color: #fff !important;
 opacity: 0.9;
-transition: all 600ms ease-in-out;
-box-shadow: inset 0 -55px 0 0 #536DFE;
+background-size: 100%;
+
 }
-.disabled {
-  pointer-events: none;
-  cursor: default;
-}
+
+
 </style>

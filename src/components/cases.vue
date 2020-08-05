@@ -1,23 +1,27 @@
 <template>
-<v-container>
-
+<v-container
+  data-aos="fade-up"
+    data-aos-offset="50"
+    data-aos-delay="1"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true">
 <project :project="detailProject" v-show="detailProject" />
 <div v-show="!detailProject">
-<h1 class="offset-md-1 mt-9" id="title" >Latest Cases</h1>
+   <v-col
+        cols="12"
+        md="11"
+        sm="12"
+      >
+<h1 class="offset-md-1 mt-9" id="title" >Latest Cases</h1> </v-col>
   <v-row class="d-flex justify-center">
     <v-col cols="10"
         md="10"
-        sm="10">
+        sm="11">
  <v-card
     id="cardderino"
-    data-aos="fade-in"
-    data-aos-offset="1"
-    data-aos-delay="50"
-    data-aos-duration="600"
-    data-aos-easing="ease-in-out"
-    data-aos-once="false"
     class="hvr-glow mt-12 activeState mr-5"
-    max-width="220"
+    width="220"
     height="370"
     color="transparent"
     dark
@@ -30,12 +34,14 @@
       :key="project.id"
       @click="detailProject = project"
   >
-    <v-img  position="center"
+<!--     <v-img  position="center"
             height="auto"
             width="220"
       src="../assets/nav/folder2.svg"
-    >
-    </v-img>
+    > -->
+    <li class="case"><i class="fa fa-folder-open" aria-hidden="true"></i></li>
+
+   <!--  </v-img> -->
     <v-card-text id="projectTitle" class="mt-3">
       <h2>{{ project.title }}</h2>
     </v-card-text>
@@ -46,10 +52,10 @@
     </v-card-actions>
     </div>
 
-<v-col cols="10"
-        md="11">
-<div id="projectsBtn" class="ml-7">
-  <v-btn id="buttonMain" class="hvr-glow pa-2 px-15 mt-7 offset-md-5" v-scroll-to="'#title'" @click="toggleProjects" v-show="!detailProject" outlined ripple color="indigo accent-2">{{limit == 4 ? 'More' : 'Less'}} Projects</v-btn>
+<v-col cols="12"
+        md="12">
+<div id="projectsBtn" class="d-flex justify-center">
+  <v-btn id="buttonMain" class="hvr-glow pa-2 px-15 mt-7" v-scroll-to="'#title'" @click="toggleProjects" v-show="!detailProject" outlined ripple color="indigo accent-2">{{limit == 4 ? 'More' : 'Less'}} Projects</v-btn>
 </div>
   <v-btn id="buttonMain" class="hvr-glow activeState pa-2 px-15 mt-7 offset-md-10" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
 </v-col>
@@ -152,5 +158,18 @@ transform: translateY(-3px);
 }
 .activeState:active{
   transform: translateY(2px);
+}
+i{
+  font-size: 180px;
+  margin-left: 15px;
+}
+/* behance */
+#cardderino:hover .fa-folder-open {
+  color: #536DFE;
+  text-shadow: 0 0 8px #536DFE;
+  transition: all 0.6s ease;
+}
+li{
+     list-style-type: none;
 }
 </style>

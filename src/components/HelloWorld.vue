@@ -1,9 +1,15 @@
 <template>
   <v-container id="welcomeMsg">
-    <v-img id="bigSimas" src="../assets/simasBig2.png" position="right"  aspect-ratio="1.6" contain   gradient="to top right, rgba(0,0,0,.15), rgba(0,0,0,.7)" alt="">
+    <v-img
+    data-aos="fade-in"
+    data-aos-offset="1"
+    data-aos-delay="50"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true" id="bigSimas" src="../assets/simasBig2.jpg" position="right"  aspect-ratio="1.6" contain   gradient="to top right, rgba(0,0,0,.15), rgba(0,0,0,.7)" alt="">
     <v-img class="mt-2" src="../assets/logo_simas.png" position="left" aspect-ratio="1.4" height="70" contain alt=""></v-img>
     <div class="offset-md-1"
-        data-aos="fade-in"
+    data-aos="fade-in"
     data-aos-offset="1"
     data-aos-delay="50"
     data-aos-duration="1600"
@@ -30,18 +36,17 @@
     >
     <p id="skillz" >Web Design  |  Interface Design  |  UX  |  Web Development  |  SEO</p>
     </v-col>
-      </div>
+    </div>
       </v-img>
         <v-navigation-drawer class="px-1" id="socials" color="transparent" hide-overlay
         absolute right width="130" height="10%"
 >
-
     <div class="wrapper mt-4">
       <ul>
-            <a
+    <a
     data-aos="fade-up"
     data-aos-offset="1"
-    data-aos-delay="2000"
+    data-aos-delay="1400"
     data-aos-duration="1600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
@@ -49,7 +54,7 @@
             <a
     data-aos="fade-up"
     data-aos-offset="1"
-    data-aos-delay="2200"
+    data-aos-delay="1600"
     data-aos-duration="1600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
@@ -57,23 +62,7 @@
             <a
     data-aos="fade-up"
     data-aos-offset="1"
-    data-aos-delay="2400"
-    data-aos-duration="1600"
-    data-aos-easing="ease-in-out"
-    data-aos-once="true"
-    href="https://github.com/tutaru99" target="_blank"><li class="github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></li></a>
-            <a
-    data-aos="fade-up"
-    data-aos-offset="1"
-    data-aos-delay="2600"
-    data-aos-duration="1600"
-    data-aos-easing="ease-in-out"
-    data-aos-once="true"
-    href="https://codepen.io/tutaru99" target="_blank"><li class="codepen"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></li></a>
-            <a
-    data-aos="fade-up"
-    data-aos-offset="1"
-    data-aos-delay="2800"
+    data-aos-delay="1800"
     data-aos-duration="1600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
@@ -81,11 +70,40 @@
             <a
     data-aos="fade-up"
     data-aos-offset="1"
-    data-aos-delay="3000"
+    data-aos-delay="2000"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://github.com/tutaru99" target="_blank"><li class="github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></li></a>
+            <a
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="2200"
+    data-aos-duration="1600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    href="https://codepen.io/tutaru99" target="_blank"><li class="codepen"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></li></a>
+            <v-tooltip
+left
+nudge-left="60"
+nudge-bottom="310"
+open-delay="800"
+color="#536DFE"
+>
+<template v-slot:activator="{ on, attrs }">
+            <a
+  v-bind="attrs"
+  v-on="on"
+    data-aos="fade-up"
+    data-aos-offset="1"
+    data-aos-delay="2400"
     data-aos-duration="1600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
     href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
+    </template>
+  <span>Curriculum Vitae</span>
+  </v-tooltip>
       </ul>
     </div>
         </v-navigation-drawer>
@@ -232,7 +250,7 @@
     margin-top: 220px;
   }
 #socials{
-    margin-top: 240px;
+    margin-top: 28vh;
   }
 #buttonMain {
   font-weight: 500;
@@ -252,7 +270,7 @@
 }
 /* Animation */
 #typeWriter {
-  animation: animated-text 2s steps(12,end) 1s 1 normal both
+  animation: animated-text 2s steps(12,end) 4s 1 normal both
 }
 #border {
    animation: animated-cursor 850ms steps(12,end) infinite;
