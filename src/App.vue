@@ -14,14 +14,14 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-import about from './components/about';
-import skills from './components/skills';
-import acomplishments from './components/acomplishments';
-import cases from './components/cases';
-import project from './components/project';
-import contact from './components/contact';
-import email from './components/email';
+import HelloWorld from '@/components/HelloWorld';
+import about from '@/components/about';
+import skills from '@/components/skills';
+import acomplishments from '@/components/acomplishments';
+import cases from '@/components/cases';
+import project from '@/components/project';
+import contact from '@/components/contact';
+import email from '@/components/email';
 
 
 

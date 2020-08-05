@@ -22,7 +22,7 @@
       >
     <div id="textbox">
       <div>
-    <h2 id="typeWriter">Hi there,<div id="border"></div></h2>
+    <h2 id="typeWriter">Hi there, Welcome!<div id="border"></div></h2>
       </div>
     <h1>My name is Simas.</h1>
     <h2>I am a <span id="highligh"> Web Developer</span> & <span id="highligh">Graphic Designer</span>, Currently based in Esbjerg, Denmark.</h2>
@@ -270,14 +270,14 @@ color="#536DFE"
 }
 /* Animation */
 #typeWriter {
-  animation: animated-text 2s steps(12,end) 4s 1 normal both
+  animation: animated-text 2s steps(25,end) 4s 1 normal both
 }
 #border {
-   animation: animated-cursor 850ms steps(12,end) infinite;
+   animation: animated-cursor 1050ms steps(21,end) infinite;
 }
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 104px;}
+  to{width: 209px;}
 }
 @keyframes animated-cursor{
   from{border-bottom-color: #536DFE;}
