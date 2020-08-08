@@ -57,7 +57,9 @@
 <div id="projectsBtn" class="d-flex justify-center">
   <v-btn id="buttonMain" class="hvr-glow pa-2 px-15 mt-7" v-scroll-to="'#title'" @click="toggleProjects" v-show="!detailProject" outlined ripple color="indigo accent-2">{{limit == 4 ? 'More' : 'Less'}} Projects</v-btn>
 </div>
-  <v-btn id="buttonMain" class="hvr-glow activeState pa-2 px-15 mt-7 offset-md-10" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
+<div class="d-flex flex-row-reverse col-md-11">
+  <v-btn id="buttonMain" class="hvr-glow activeState pa-2 px-15 mt-7" v-scroll-to="'#feelsGoodMan'" @click="detailProject = project" v-show="detailProject" outlined ripple color="indigo accent-2">Back</v-btn>
+</div>
 </v-col>
 </v-container>
 </template>

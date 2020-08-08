@@ -17,7 +17,7 @@
 The main area of my expertise is Front-End development (client-side of the web). 
 HTML, CSS, JavaScript, building small and medium web-apps with VueJS, plugins, and various 
 interactive animations. I'm highly focused on mobile-friendliness and responsiveness. Also, I'm more than capable of working with open source CMS's such as WordPress 
-and SilverStripe. SEO is another field I've been building my knowledge in - <span class="filledLink"><a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
+and SilverStripe. SEO is another field I've been building my knowledge in - <span><a href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing" target="_blank">Digital Google Garage 
 Certificate</a></span>.
 </p>
 <v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://github.com/tutaru99" target="_blank" outlined ripple color="indigo accent-2">Github</v-btn>
@@ -2329,8 +2329,6 @@ p a:hover{
 color: #fff !important;
 opacity: 0.9;
 background-size: 100%;
-
 }
-
 
 </style>

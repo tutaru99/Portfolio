@@ -100,7 +100,7 @@ color="#536DFE"
     data-aos-duration="1600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
-    href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
+    href="https://drive.google.com/file/d/1pm6AT4DvoEziCjzjU95bw6e7oVH2FOwq/view?usp=sharing" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
     </template>
   <span>Curriculum Vitae</span>
   </v-tooltip>

@@ -25,7 +25,7 @@
 I'm Simas Raudonis. Currently broadening my horizons and getting my Web Development degree in Denmark. <br><br>
 I love creating things that make people smile. Web Development is not only my field of study and work - it became my passion.
 </p>
-<v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://drive.google.com/file/d/1osWzrYjp0bHCTeXaEaLzeF5iAOoGkWbJ/view"
+<v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://drive.google.com/file/d/1pm6AT4DvoEziCjzjU95bw6e7oVH2FOwq/view?usp=sharing"
 target="_blank" outlined ripple color="indigo accent-2">Résumé</v-btn>
 </v-col>
 <v-col class="offset-md-1"
