@@ -6,8 +6,8 @@
     data-aos-delay="50"
     data-aos-duration="1600"
     data-aos-easing="ease-in-out"
-    data-aos-once="true" id="bigSimas" src="../assets/simasBig2.jpg" position="right"  aspect-ratio="1.6" contain   gradient="to top right, rgba(0,0,0,.15), rgba(0,0,0,.7)" alt="">
-    <v-img class="mt-2" src="../assets/logo_simas.png" position="left" aspect-ratio="1.4" height="70" contain alt=""></v-img>
+    data-aos-once="true" id="bigSimas" src="../assets/simasBig2.jpg" position="right"  aspect-ratio="1.6" contain   gradient="to top right, rgba(0,0,0,.15), rgba(0,0,0,.7)" alt="Simas Raudonis">
+    <v-img class="mt-2" src="../assets/logo_simas.png" position="left" aspect-ratio="1.4" height="70" contain alt="Simas Raudonis"></v-img>
     <div class="offset-md-1"
     data-aos="fade-in"
     data-aos-offset="1"
@@ -100,7 +100,7 @@ color="#536DFE"
     data-aos-duration="1600"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
-    href="https://drive.google.com/file/d/1pm6AT4DvoEziCjzjU95bw6e7oVH2FOwq/view?usp=sharing" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
+    href="https://drive.google.com/file/d/1v29wnpy1XLId_RjYFj73cV6W9b9wdQab/view" target="_blank"> <li class="cv"><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></li></a>
     </template>
   <span>Curriculum Vitae</span>
   </v-tooltip>
@@ -273,7 +273,7 @@ color="#536DFE"
   animation: animated-text 2s steps(25,end) 4s 1 normal both
 }
 #border {
-   animation: animated-cursor 1050ms steps(21,end) infinite;
+   animation: animated-cursor 1050ms steps(25,end) infinite;
 }
 @keyframes animated-text{
   from{width: 0;}
