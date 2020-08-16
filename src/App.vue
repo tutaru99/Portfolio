@@ -62,9 +62,11 @@ cursor: default;
 #highlight{
    box-shadow: inset 0 -1px 0 0 #536DFE;
     padding-bottom: 3px;
+    -webkit-transition: 0.9s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 #highlight:hover{
-    box-shadow: inset 0 -18px 0 0 #536DFE;
+    box-shadow: inset 0 -22px 0 0 #536DFE;
     transition: all 600ms ease-in-out;
 }
 #buttonMain {

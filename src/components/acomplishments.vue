@@ -98,6 +98,7 @@ a:hover{
 opacity: 0.9;
 transition: all 400ms ease-in-out;
 box-shadow: inset 0 -55px 0 0 #536DFE;
+
 }
 #links{
     cursor: pointer;
