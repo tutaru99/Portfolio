@@ -1,5 +1,5 @@
 <template>
-<v-container
+<v-container justify-center
   data-aos="fade-up"
     data-aos-offset="50"
     data-aos-delay="1"
@@ -11,13 +11,14 @@
    <v-col
         cols="12"
         md="11"
-        sm="12"
+        sm="11"
       >
-<h1 class="offset-md-1 mt-9" id="title" >Latest Cases</h1> </v-col>
+<h1 class="offset-1 mt-9" id="title" >Latest Cases</h1>
+</v-col>
   <v-row class="d-flex justify-center">
     <v-col cols="10"
         md="10"
-        sm="11">
+        sm="10">
  <v-card
     id="cardderino"
     class="hvr-glow mt-12 activeState mr-5"

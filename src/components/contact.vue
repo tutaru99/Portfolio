@@ -3,7 +3,7 @@
  <v-col
         cols="12"
         md="11"
-        sm="11"
+        sm="12"
       >
   <v-divider class="mt-9 offset-md-1" color="#ffffff"></v-divider>
 </v-col>

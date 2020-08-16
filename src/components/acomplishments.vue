@@ -47,9 +47,9 @@
  <v-col
         cols="12"
         md="11"
-        sm="11"
+        sm="12"
       >
-  <v-divider id="feelsGoodMan" class="mt-15 offset-1" color="#ffffff"></v-divider>
+  <v-divider id="feelsGoodMan" class="mt-15 offset-md-1" color="#ffffff"></v-divider>
 </v-col>
 </v-container>
 </template>

@@ -3,9 +3,9 @@
  <v-col
         cols="12"
         md="11"
-        sm="11"
+        sm="12"
       >
-  <v-divider class="mt-15 offset-1" color="#ffffff"></v-divider>
+  <v-divider class="mt-15 offset-md-1" color="#ffffff"></v-divider>
 </v-col>
 <div class="d-flex flex-column d-sm-flex flex-sm-row offset-md-1 mt-16"
     data-aos="fade-up"
@@ -45,9 +45,9 @@ Amongst other things, I enjoy keeping up with all technological innovations and 
  <v-col
         cols="12"
         md="11"
-        sm="11"
+        sm="12"
       >
-  <v-divider class="mt-16 offset-1" color="#ffffff"></v-divider>
+  <v-divider class="mt-16 offset-md-1" color="#ffffff"></v-divider>
 </v-col>
 </v-container>
 </template>
