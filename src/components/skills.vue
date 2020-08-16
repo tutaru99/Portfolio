@@ -22,12 +22,12 @@ Certificate</a></span>.
 </p>
 <v-btn id="buttonMain" class="hvr-glow pa-2 px-10 mt-7" href="https://github.com/tutaru99" target="_blank" outlined ripple color="indigo accent-2">Github</v-btn>
 </v-col>
-<v-col class="offset-md-2"
+<v-col  class="offset-md-1 offset-sm-1"
         cols="12"
         md="6"
         sm="5"
       >
-<div id="myCanvasContainer">
+<div id="myCanvasContainer" class="d-flex justify-center">
  <canvas width="auto" height="400" id="myCanvas">
   <p>Anything in here will be replaced on browsers that support the canvas element</p>
   <ul>
