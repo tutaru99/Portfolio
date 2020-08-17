@@ -40,7 +40,7 @@
       </v-img>
         <v-navigation-drawer class="px-1" id="socials" color="transparent" hide-overlay
         absolute right width="130" height="10%"
->
+        >
     <div class="wrapper mt-4">
       <ul>
     <a
@@ -285,6 +285,11 @@ color="#536DFE"
 }
 #highligh{
   box-shadow: inset 0 -7px 0 #536dfe69;
+}
+@media only screen and (max-width: 1024px) {
+  #socials {
+   display: none;
+  }
 }
 </style>
 
