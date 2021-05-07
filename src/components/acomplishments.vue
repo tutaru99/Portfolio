@@ -13,21 +13,30 @@
         <h1 class="pb-15">Education & Experience</h1>
         <div class="pb-5">
           <div class="d-flex">
-            <a href="https://www.easv.dk/en" target="_blank"
-              ><h2 id="links">EASV</h2></a
-            >
-            <h2 class="ml-auto">Bachelor: Web Development</h2>
-          </div>
-          <span>08.2020 - 10.2021 / Esbjerg, Denmark</span>
-        </div>
-        <div class="pb-5">
-          <div class="d-flex">
             <a href="https://www.energycluster.dk" target="_blank"
               ><h2 id="links">Energy Cluster Denmark</h2></a
             >
             <h2 class="ml-auto">Web Application Development</h2>
           </div>
-          <span>08.2020 - 12.2020 / Esbjerg, Denmark</span>
+          <span>08.2020 - 01.2021 / Esbjerg, Denmark</span>
+        </div>
+        <div class="pb-5">
+          <div class="d-flex">
+            <a href="https://www.easv.dk/en" target="_blank"
+              ><h2 id="links">EASV</h2></a
+            >
+            <h2 class="ml-auto">Bachelor: Web Development</h2>
+          </div>
+          <span>08.2020 - 11.2021 / Esbjerg, Denmark</span>
+        </div>
+        <div class="pb-5">
+          <div class="d-flex">
+            <a href="https://cocolab.club" target="_blank"
+              ><h2 id="links">cocolab.club</h2></a
+            >
+            <h2 class="ml-auto">Final Exam Project</h2>
+          </div>
+          <span>04.2020 - 06.2020 / Esbjerg, Denmark</span>
         </div>
         <div class="pb-5">
           <div class="d-flex">

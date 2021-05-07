@@ -61,7 +61,7 @@
         >
         <v-col cols="11" md="8" sm="11">
           <p id="skillz">
-            Web Design | Interface Design | UX | Web Development | SEO
+            Web Development | Interface Design | UX | Web Design | SEO
           </p>
         </v-col>
       </div>
