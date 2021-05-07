@@ -23,8 +23,8 @@
           Aside from technical skills I have accumulated a good amount of
           theoretical knowledge about various practices, architectures and
           industry standards. I'm more than capable of working with open source
-          CMS's such as WordPress and SilverStripe. <br> SEO is another field I've
-          been building my knowledge in -
+          CMS's such as WordPress and SilverStripe. <br />
+          SEO is another field I've been building my knowledge in -
           <span
             ><a
               href="https://drive.google.com/file/d/16DFNjQhOWYENe7AtcvGRQM81132vWGB1/view?usp=sharing"
