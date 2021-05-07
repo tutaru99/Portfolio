@@ -87,7 +87,9 @@ export default {
   components: {
     ValidationProvider,
   },
-  data: () => ({}),
+  data: () => ({
+    value: ""
+  }),
 };
 </script>
 
