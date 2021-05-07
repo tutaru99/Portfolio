@@ -18,7 +18,16 @@
             >
             <h2 class="ml-auto">Bachelor: Web Development</h2>
           </div>
-          <span>08.2020 - Present / Esbjerg, Denmark</span>
+          <span>08.2020 - 10.2021 / Esbjerg, Denmark</span>
+        </div>
+        <div class="pb-5">
+          <div class="d-flex">
+            <a href="https://www.energycluster.dk" target="_blank"
+              ><h2 id="links">Energy Cluster Denmark</h2></a
+            >
+            <h2 class="ml-auto">Web Application Development</h2>
+          </div>
+          <span>08.2020 - 12.2020 / Esbjerg, Denmark</span>
         </div>
         <div class="pb-5">
           <div class="d-flex">
