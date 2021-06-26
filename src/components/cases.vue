@@ -110,7 +110,7 @@ export default {
           imageLink: require("@/assets/Sora1.png"),
           imageLink2: require("@/assets/Sora2.png"),
           description:
-            "A contracted work to create this web application. The main goal of the SORA application is to provide a simple yet fast way to apply to the Danish Authorities regarding Drone Flights with the right documents depending on the assessment results. The application itself is quite big because of the many requirements and outcomes there can be during the assessment process. The application is fully functional and has many different features to help users to speed up the process of applying.",
+            "A contracted work to create this web application. The main goal of the SORA application is to provide a simple yet fast way to apply to the Danish Authorities regarding Drone Flights with the right documents depending on the assessment results. The application itself is quite big because of the many requirements and outcomes there can be during the assessment process. The application is fully functional and has many different features to help users to speed and ease up the process of applying with the Danish Authorities.",
         },
         {
           title: "Marvel Comics",
@@ -118,7 +118,7 @@ export default {
           imageLink: require("@/assets/Comics1.png"),
           imageLink2: require("@/assets/Comics2.png"),
           description:
-            "A hobby project. Built using VueJS, Vuetify, NodeJS and Marvel API. User is able to browse pages of characters, comics, series or stories, search for a specific one and browse details page specific to item. I've also has set up cypress and chai mocha tests for this project. More information on github.",
+            "A hobby project. Built using VueJS, Vuetify, NodeJS and Marvel API. User is able to browse pages of characters, comics, series or stories, search for a specific one and browse details page specific to the item chosen. I've also has set up cypress and chai mocha tests for this project. More information on github.",
           githubLink: "https://github.com/tutaru99/comics-web-app",
         },
         {
@@ -134,7 +134,7 @@ export default {
         },
 
         {
-          title: "Enviroom",
+          title: "Enviroom Travel",
           date: "Dec 2019",
           imageLink: require("@/assets/enviroom1.jpg"),
           imageLink2: require("@/assets/enviroom2.jpg"),
