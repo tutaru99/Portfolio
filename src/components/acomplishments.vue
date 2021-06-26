@@ -13,6 +13,15 @@
         <h1 class="pb-15">Education & Experience</h1>
         <div class="pb-5">
           <div class="d-flex">
+            <a href="https://creditro.com" target="_blank"
+              ><h2 id="links">Creditro</h2></a
+            >
+            <h2 class="ml-auto">Application Development</h2>
+          </div>
+          <span>08.2021 - 11.2021 / Esbjerg, Denmark</span>
+        </div>
+        <div class="pb-5">
+          <div class="d-flex">
             <a href="https://www.energycluster.dk" target="_blank"
               ><h2 id="links">Energy Cluster Denmark</h2></a
             >
@@ -32,7 +41,7 @@
         <div class="pb-5">
           <div class="d-flex">
             <a href="https://cocolab.club" target="_blank"
-              ><h2 id="links">cocolab.club</h2></a
+              ><h2 id="links">Cocolab.club</h2></a
             >
             <h2 class="ml-auto">Final Exam Project</h2>
           </div>
@@ -41,8 +50,7 @@
         <div class="pb-5">
           <div class="d-flex">
             <a href="https://www.nobrainer.dk" target="_blank"
-              ><h2 id="links">nobrainer</h2></a
-            >
+              ><h2 id="links">NoBrainer</h2></a>
             <h2 class="ml-auto">Junior Web Developer</h2>
           </div>
           <span>01.2020 - 04.2020 / Esbjerg, Denmark</span>
@@ -59,7 +67,7 @@
         <div class="pb-5">
           <div class="d-flex">
             <h2>Freelance</h2>
-            <h2 class="ml-auto">Translator</h2>
+            <h2 class="ml-auto">Interpreter EN-LT</h2>
           </div>
           <span>07.2017 - 04.2018 / Kretinga, Lithuania</span>
         </div>

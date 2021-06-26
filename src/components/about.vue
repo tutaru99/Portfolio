@@ -14,10 +14,10 @@
     >
       <v-col cols="12" md="4" sm="5">
         <p id="primaryText">
-          I'm Simas. Currently broadening my horizons and getting
-          Web Development degree in Denmark. <br /><br />
-          I love creating things that are useful and make people smile. Web Development is not
-          only my field of study and work - it's my passion.
+          I'm Simas. Currently broadening my horizons and getting Web
+          Development degree in Denmark. <br /><br />
+          I love creating things that are useful and make people smile. Web
+          Development is not only my field of study and work - it's my passion.
         </p>
         <v-btn
           id="buttonMain"
@@ -32,14 +32,15 @@
       </v-col>
       <v-col class="offset-md-1" cols="12" md="6" sm="5">
         <p>
-          My professional area of focus lies in web development, designing web and mobile
-          products, SEO & user research. I enjoy designing and developing
-          as much as talking with users to get feedback and improving
+          My professional area of focus lies in web development, designing web
+          and mobile products, SEO & user research. I enjoy designing and
+          developing as much as talking with users to get feedback and improving
           the UX and functionality. <br />
           <br />
           Amongst many other things, I enjoy keeping up with all technological
-          innovations and the latest tech trends, reading science, tech
-          and other types of magazines and articles. In my free time I also love messing with Unity3d and creating VR and AR applications.
+          innovations, latest tech. trends, reading science, tech. and other
+          types of articles and megazines. In my free time I also love messing
+          with Unity3d and creating VR and AR applications.
         </p>
         <v-btn
           id="buttonMain"

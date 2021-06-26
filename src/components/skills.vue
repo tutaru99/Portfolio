@@ -14,14 +14,14 @@
       >
         <h1 class="pb-5">Skills & Competencies</h1>
         <p>
-          I am capable of building a full stack application or a website.
-          Favorite stack - MEVN. I can develop REST APIs, work with Mysql and
-          Nosql databases or create a website for you or your company. I can
+          I am fully capable of building a lot of things. Whether it's a full stack application, a webshop or just a website for you - I got you.
+          I can develop REST APIs, work with MySQL and
+          NoSQL databases or create a website for you or your company. I can
           also work with PHP and Laravel or create Unit or End2End tests for
           applications as well as setup CI/CD pipelines to significantly improve
-          workflow and automation. My most prefered JavaScript framework is Vue.
+          workflow and automation.
           Aside from technical skills I have accumulated a good amount of
-          theoretical knowledge about various practices, architectures and
+           knowledge about various practices, architectures and
           industry standards. I'm more than capable of working with open source
           CMS's such as WordPress and SilverStripe. <br />
           SEO is another field I've been building my knowledge in -
@@ -59,33 +59,34 @@
               <a href="javascript:function() { return false; }">JavaScript</a>
               <a href="javascript:function() { return false; }">VueJS</a>
               <a href="javascript:function() { return false; }">Vuetify</a>
-              <a href="javascript:function() { return false; }">CI/CD</a>
+              <a href="javascript:function() { return false; }">CI & CD</a>
               <a href="javascript:function() { return false; }">Cypress</a>
               <a href="javascript:function() { return false; }">CMS</a>
               <a href="javascript:function() { return false; }">Github</a>
+              <a href="javascript:function() { return false; }">Git</a>
               <a href="javascript:function() { return false; }">Bootstrap4</a>
               <a href="javascript:function() { return false; }">Foundation</a>
               <a href="javascript:function() { return false; }">WordPress</a>
-              <a href="javascript:function() { return false; }"
-                >Continuous Integration</a
-              >
               <a href="javascript:function() { return false; }">SilverStripe</a>
               <a href="javascript:function() { return false; }">NodeJS</a>
               <a href="javascript:function() { return false; }">PHP</a>
+              <a href="javascript:function() { return false; }">Express</a>
               <a href="javascript:function() { return false; }">REST API</a>
+              <a href="javascript:function() { return false; }">Mongoose</a>
               <a href="javascript:function() { return false; }">Postman</a>
-              <a href="javascript:function() { return false; }">Nosql</a>
+              <a href="javascript:function() { return false; }">NoSQL</a>
               <a href="javascript:function() { return false; }">Stripe</a>
+              <a href="javascript:function() { return false; }">JWT</a>
+              <a href="javascript:function() { return false; }">Firestore</a>
+              <a href="javascript:function() { return false; }">ElementUI</a>
               <a href="javascript:function() { return false; }">SQL</a>
-              <a href="javascript:function() { return false; }">Unit Testing</a>
+              <a href="javascript:function() { return false; }">UnitTesting</a>
               <a href="javascript:function() { return false; }">Swagger</a>
-              <a href="javascript:function() { return false; }">Chai & Mocha</a>
+              <a href="javascript:function() { return false; }">Mocha & Chai</a>
               <a href="javascript:function() { return false; }">Laravel</a>
-              <a href="javascript:function() { return false; }">MySql</a>
-              <a href="javascript:function() { return false; }"
-                >Continuous Delivery</a
-              >
+              <a href="javascript:function() { return false; }">MySQL</a>
               <a href="javascript:function() { return false; }">End2End</a>
+              <a href="javascript:function() { return false; }">MongoDB</a>
             </ul>
           </canvas>
         </div>
