@@ -121,7 +121,7 @@ export default {
           imageLink2: require("@/assets/Comics2.png"),
           description:
             "A hobby project. Built using VueJS, Vuetify, NodeJS and Marvel API. User is able to browse pages of characters, comics, series or stories, search for a specific one and browse details page specific to the item chosen. I've also has set up cypress and chai mocha tests for this project. More information on github.",
-                    behanceLink:
+          behanceLink:
             "https://www.behance.net/gallery/122332773/Marvel-Comics",
           githubLink: "https://github.com/tutaru99/comics-web-app",
         },
@@ -148,16 +148,16 @@ export default {
             "https://www.behance.net/gallery/100895867/Enviroom-Unique-travel-hotel-website",
           githubLink: "https://github.com/tutaru99/Enviroom-2.0",
         },
-          {
-            title: "PHP Webshop",
-            date: "Dec 2020",
-            imageLink: require("@/assets/coffeeshop1.png"),
-            imageLink2: require("@/assets/coffeeshop2.png"),
-            description:
-              "Webshop made using vanilla PHP. Fully working Stripe payment system, CMS, cart, chatbot, User Profile, roles and more. Most of the content was designed to be editable by Admin Account from the CMS that was created for this system. Even though this webshop is a concept still - it is fully functional and could serve customers with few minor adjustments.",
-            behanceLink: "",
-            githubLink: "https://github.com/tutaru99/coffeeShopPhp",
-          },
+        {
+          title: "PHP Webshop",
+          date: "Dec 2020",
+          imageLink: require("@/assets/coffeeshop1.png"),
+          imageLink2: require("@/assets/coffeeshop2.png"),
+          description:
+            "Webshop made using vanilla PHP. Fully working Stripe payment system, CMS, cart, chatbot, User Profile, roles and more. Most of the content was designed to be editable by Admin Account from the CMS that was created for this system. Even though this webshop is a concept still - it is fully functional and could serve customers with few minor adjustments.",
+          behanceLink: "",
+          githubLink: "https://github.com/tutaru99/coffeeShopPhp",
+        },
         {
           title: "Poster Competition",
           date: "Dec 2019",
