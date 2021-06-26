@@ -96,7 +96,24 @@ export default {
       imageLink: "",
       projects: [
         {
-          title: "Website: Esports Esbjerg",
+          title: "SORA: Risk Assessment web-aplication",
+          date: "August 2020",
+          imageLink: require("@/assets/Sora1.png"),
+          imageLink2: require("@/assets/Sora2.png"),
+          description:
+            "I was contracted to create a web application. The main goal of the SORA application is to provide a simple yet fast way to apply to the Danish authorities with the right documents depending on the assessment results. The application itself is quite big because of the many requirements and outcomes there can be during the assessment process. The application is fully functional and has many different features to help users to speed up the process of applying.",
+        },
+        {
+          title: "Marvel Comics",
+          date: "Feb 2021",
+          imageLink: require("@/assets/Comics1.png"),
+          imageLink2: require("@/assets/Comics2.png"),
+          description:
+            "A hobby project. Built using VueJS, Vuetify, NodeJS and Marvel API. User is able to browse pages of characters, comics, series or stories, search for a specific one and browse details page specific to item. I've also has set up cypress and chai mocha tests for this project. More information on github.",
+          githubLink: "https://github.com/tutaru99/comics-web-app",
+        },
+        {
+          title: "Esports Esbjerg",
           date: "May 2019",
           imageLink: require("@/assets/esports1.jpg"),
           imageLink2: require("@/assets/esports2.jpg"),
@@ -106,19 +123,9 @@ export default {
             "https://www.behance.net/gallery/100897607/Esports-Esbjerg-Full-Makeover",
           githubLink: "https://github.com/tutaru99/esports",
         },
+
         {
-          title: "Website: Friskole",
-          date: "Oct 2019",
-          imageLink: require("@/assets/friskole1.jpg"),
-          imageLink2: require("@/assets/friskole2.jpg"),
-          description:
-            "A re-designed website for Esbjerg Friskole school located in Esbjerg. The website was created in plain HTML, CSS and Bootstrap. Later on it was converted into WordPress theme template. Most of the elements can be eddited, changed and added through WordPress's Admin Panel. The process of updating website was simplified by users request because they were not tech savvy.",
-          behanceLink:
-            "https://www.behance.net/gallery/100894529/Friskole-Esbjerg-school-website",
-          githubLink: "https://github.com/tutaru99/friSkole",
-        },
-        {
-          title: "Website: Enviroom",
+          title: "Enviroom",
           date: "Dec 2019",
           imageLink: require("@/assets/enviroom1.jpg"),
           imageLink2: require("@/assets/enviroom2.jpg"),
@@ -128,6 +135,16 @@ export default {
             "https://www.behance.net/gallery/100895867/Enviroom-Unique-travel-hotel-website",
           githubLink: "https://github.com/tutaru99/Enviroom-2.0",
         },
+          {
+            title: "PHP Webshop",
+            date: "Dec 2020",
+            imageLink: require("@/assets/coffeeshop1.png"),
+            imageLink2: require("@/assets/coffeeshop2.png"),
+            description:
+              "Webshop made using vanilla PHP. Fully working Stripe payment system, CMS, cart, chatbot, User Profile, roles and more. Most of the content was designed to be editable by Admin Account from the CMS that was created for this system. Even though this webshop is a concept still - it is fully functional and could serve customers with few minor adjustments.",
+            behanceLink: "",
+            githubLink: "https://github.com/tutaru99/coffeeShopPhp",
+          },
         {
           title: "Poster Competition",
           date: "Dec 2019",

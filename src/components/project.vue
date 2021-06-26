@@ -30,7 +30,7 @@
       <p class="mt-9">{{ project.description }}</p>
     </div>
     <div class="mt-7 d-flex offset-md-1">
-      <a class="hvr-glow mr-9" v-bind:href="project.behanceLink" target="_blank"
+      <a class="hvr-glow mr-9"  v-show="project.behanceLink" v-bind:href="project.behanceLink" target="_blank"
         >Behance</a
       >
       <a
