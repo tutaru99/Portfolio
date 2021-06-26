@@ -6,3 +6,5 @@ module.exports = {
     "vuetify"
   ],
 }
+
+/* When Hosting Normally Delete everything in this file */
