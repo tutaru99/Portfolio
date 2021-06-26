@@ -96,12 +96,21 @@ export default {
       imageLink: "",
       projects: [
         {
+          title: "Project Management Application",
+          date: "May 2021",
+          imageLink: require("@/assets/pma1.png"),
+          imageLink2: require("@/assets/pma2.png"),
+          description:
+            "As the name suggests - it's a project management application. Took a lot of inspiration from applications like - trello and ClickUp and of course added my own flavor to it to make it even better. The application was made using the MEVN stack. The application has an authentication system, authorization system, and a lot of features like dark and light modes, the ability to work on the same project for many users at the same time, a fully editable project board, a lot of details that the user can assign to the task, time stamp features for each task - user(-s) is able to assign a time of the task and everything is being tracked, counted and shown and much much more. The API part of the application can be found on my GitHub along with instructions on how to launch the application. I highly recommend checking the application out. You can find more information on GitHub.",
+          githubLink: "https://github.com/tutaru99/project-management-app",
+        },
+        {
           title: "SORA: Risk Assessment web-aplication",
           date: "August 2020",
           imageLink: require("@/assets/Sora1.png"),
           imageLink2: require("@/assets/Sora2.png"),
           description:
-            "I was contracted to create a web application. The main goal of the SORA application is to provide a simple yet fast way to apply to the Danish authorities with the right documents depending on the assessment results. The application itself is quite big because of the many requirements and outcomes there can be during the assessment process. The application is fully functional and has many different features to help users to speed up the process of applying.",
+            "A contracted work to create this web application. The main goal of the SORA application is to provide a simple yet fast way to apply to the Danish Authorities regarding Drone Flights with the right documents depending on the assessment results. The application itself is quite big because of the many requirements and outcomes there can be during the assessment process. The application is fully functional and has many different features to help users to speed up the process of applying.",
         },
         {
           title: "Marvel Comics",
