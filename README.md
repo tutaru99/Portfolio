@@ -1,6 +1,8 @@
-# New-Portfolio
-Portfolio web made with vue and vuetify.
-Live Version:
-tutaru99.github.io
+# Simas Raudonis - Portfolio
+Personal Portfolio website made with VueJS and Vuetify.
 
-Feel free to use it, but it would be cool if you could mention me somewhere.
+Live Version: tutaru99.github.io || simasraudonis.eu
+
+Im open for suggestions and improvements, contact me if you have ideas on how to further improve this portfolio.
+Feel free to use this code, but it would be cool if you could mention me somewhere.
+
